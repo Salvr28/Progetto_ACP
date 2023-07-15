@@ -21,6 +21,6 @@ E' stata utilizzata la seguente versione di MONGODB:
 Sono state utilizzate le seguenti versioni dei pacchetti NODE:
 
 > _express_ : 4.18.2\
-> _mongoose_ : 6.10.5\
+> _mongoose_ : 6.10.5
 
 In caso di problemi controllare che il _package.json_ contenga le versioni citate sopra
