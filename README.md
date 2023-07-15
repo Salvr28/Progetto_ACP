@@ -24,3 +24,15 @@ Sono state utilizzate le seguenti versioni dei pacchetti NODE:
 > _mongoose_ : 6.10.5
 
 In caso di problemi controllare che il _package.json_ contenga le versioni citate sopra
+
+## GUIDA ALL' AVVIO DELL'APPLICAZIONE
+
+1.Avviare da shell il servizio **mongodb**\
+2.Eseguire nella directory del progetto i seguenti comandi:
+
+> **node serverAdmin.js** -- Avvia la parte server dell'**amministrazione** sul localhost:4502\
+> **node serverClient.js** -- Avvia la parte server del **cliente** sul localhost:4500
+
+3.Cercare su un qualunque browser nella barra degli indirizzi: localhost:**numero di porto**
+
+## TEST DELL'APPLICAZIONE
