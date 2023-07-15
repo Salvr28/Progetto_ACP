@@ -5,6 +5,8 @@
   "main": "serverAdmin.js",
   "scripts": {
     "test": "test"
+    "startAdmin": "node serverAdmin.js"
+    "startCliente": "node serverCliente.js"
   },
   "repository": {
     "type": "git",
