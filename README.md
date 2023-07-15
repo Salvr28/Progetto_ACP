@@ -30,8 +30,8 @@ In caso di problemi controllare che il _package.json_ contenga le versioni citat
 1.Avviare da shell il servizio **mongodb**\
 2.Eseguire nella directory del progetto i seguenti comandi:
 
-> **node serverAdmin.js** -- Avvia la parte server dell'**amministrazione** sul localhost:4502\
-> **node serverCliente.js** -- Avvia la parte server del **cliente** sul localhost:4500
+> **npm run startAdmin** -- Avvia la parte server dell'**amministrazione** sul localhost:4502\
+> **npm run startCliente** -- Avvia la parte server del **cliente** sul localhost:4500
 
 3.Cercare su un qualunque browser nella barra degli indirizzi: localhost:**numero di porto**
 
