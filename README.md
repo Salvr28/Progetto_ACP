@@ -36,3 +36,22 @@ In caso di problemi controllare che il _package.json_ contenga le versioni citat
 3.Cercare su un qualunque browser nella barra degli indirizzi: localhost:**numero di porto**
 
 ## TEST DELL'APPLICAZIONE
+
+### CLIENTE
+* Sottoscrivere più abbonamenti mensili
+* Provare a sottoscrivere un abbonamento mensile già sottoscritto
+* Sottoscrivere un abbonamento annuale
+* Visualizzare abbonamenti mensili in seguito a sottoscrizioni
+* Visualizzare abbonamenti annuali in seguito a sottoscrizioni
+* Sospendere un abbonamento annuale accettato
+* Provare a sospendere un abbonamento annuale non accettato o già sospeso
+
+### ADMIN
+* Accettare un abbonamento mensile
+* Rifiutare un abbomento mensile
+* Accettare un abbonamento annuale
+* Rifiutare un abbonamento annuale
+* Visualizzare stato abbonamenti accettati, rifiutati e non ancora gestiti
+* Inserire apertura giorno con gli orari di apertura e chiusura
+* Modificare gli orari di apertura e chiusura di un giorno già aperto
+* Impostare chiusura di un giorno
