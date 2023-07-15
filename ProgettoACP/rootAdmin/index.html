@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<hrml>
+
+    <head>
+        <!--Nell'header inseriamo, oltre al titolo della pagina web, dati leggeri che servono alla corretta visualizzazione della pagina:
+        References, stylesheets, metadati...  -->
+        
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css'
+        integrity='sha512-t4GWSVZO1eC8BM339Xd7Uphw5s17a86tIZIj8qRxhnKub6WoyhnrxeCIMeAqBPgdZGlCcG2PrZjMc+Wr78+5Xg=='
+        crossorigin='anonymous' /> <!--Integrity e crossorigin permettono rispettivamente di controllare se lo script è stato manipolato
+        e di permettere ai browser di caricare risorse dall'origine indicata-->
+
+        <link href="styleAdmin.css" rel="stylesheet" , type="text/css">
+        <!--<link href="reset.css" rel="stylesheet" , type="text/css">-->
+
+        <link rel="icon"  href="gym.png" type="image/x-icon">
+        <title>Maradona Fitness Center Admin</title>
+
+    </head>
+
+
+    <body>
+
+
+        <header>
+
+            <div class="title">
+    
+                <h1>Maradona Fitness Center Admin</h1>
+    
+            </div>
+    
+        </header>
+
+
+        <main>
+
+            <div class="container">
+
+                <div class="tabs">
+    
+                    <a href="#"><span class="active" id="sotAbbTab">Gestisci Abbonamenti</span></a>
+                    <a href="#"><span id="statoAbbTab">Visualizza Abbonamenti</span></a>
+                    <a href="#"><span id="modGiorniTab">Modifica orari giorni</span></a>
+    
+                </div>
+    
+    
+                <div class="content">
+    
+                    <!--Divisione programmatica, verra popolata con lo script del frontCliente-->
+
+                </div>
+    
+                <div>
+    
+                    <p class="notify"></p>
+    
+                    <p class="alert"></p>
+    
+                </div>
+    
+            </div>
+
+        </main>
+
+
+        <footer>
+
+            <div class="container">
+    
+                <div class="infobox">
+    
+                    <h4> Vieni a trovarci</h4>
+                    <ul>
+                        <li>MFC</li>
+                        <li>Via Claudio 21</li>
+                        <li>80125 Napoli NA</li>
+                    </ul>
+
+                </div>
+    
+                <div class="servicesbox">
+    
+                    <h4>I nostri servizi</h4>
+                    <ul>
+                        <li>Sala Corsi</li>
+                        <li>Sala Pesi</li>
+                        <li>Piscina</li>
+                        <li>Centro Benessere</li>
+                    </ul>
+    
+                </div>
+    
+            </div>
+    
+        </footer>
+
+        <!--Alla fine del body inseriamo i file javascripts per evitare il rallentamento del loading della pagina-->
+        <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+        <script src="frontAdmin.js"></script>
+
+    </body>
+
+
+</hrml>

@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap');
+
+*{
+    font-family:"Lucida Console", "Courier New", monospace;
+}
+
+ul{
+    list-style: none;
+    text-align: left;
+    padding-inline-start: 0px !important;
+}
+
+body {
+    height: 100%;
+    margin: 0px;
+    background-color:#e7eaf6;
+}
+
+header,
+main,
+footer {
+    min-width: 1100px;
+}
+
+header {
+    text-align: center;
+    background-color: #113f67;
+    margin-top: 0px;
+}
+
+main {
+    margin-top:50px;
+}
+
+html {
+    letter-spacing: .15em;
+    font-weight: 450;
+    font-size: 18px;
+}
+
+button{
+    background-color:#e7eaf6;
+    border-color: #38598b;
+    color:#38598b;
+    transition-duration: 0.4s;
+    text-decoration-color: #113f67 ;
+}
+
+button:hover{
+    transform: translateY(-0.25em);
+    cursor: pointer;
+    background-color: #38598b; /* Green */
+  color: white;
+}
+
+.title h1 {
+    font-size: 30px;
+    color:#F5F5F5;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family:"Lucida Console", "Courier New", monospace;
+    padding: 30px;
+    background-color:#113f67;
+    margin-top: 0px;
+}
+
+/* AREA MAIN */
+
+main .content {
+    background-color: #a2a8d3;
+    padding: 20px 0px 20px 20px;
+    text-align: left;
+    word-wrap: break-word;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    height: auto;
+    min-height: 200px;
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+main .content p {
+    padding-bottom: 5px;
+}
+
+.tabs a span {
+    display: inline-block;
+    margin-right: 35px;
+    padding: 7px;
+    text-align: center;
+    width: fit-content;
+    font-weight: bold;
+    font-size: 20px;
+    color: #38598b;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.tabs a .active {
+    background-color:#a2a8d3;
+    color: #38598b;
+    text-transform: uppercase;
+}
+
+/*SOTTOSCRIVI ABBONAMENTO*/
+
+p.labeltext{
+    text-align: center;
+    margin-top:10px;
+    color: #F5F5F5;
+    background-color:#113f67 ;
+    max-width: 300px;
+}
+
+
+/*AREA VISUALIZZA GIORNI*/
+
+li.Lunedì,li.Martedì,li.Mercoledì,li.Giovedì,li.Venerdì,li.Sabato{
+    max-width: 1000px;
+    border: solid 3px #113f67;
+    color:#113f67;
+    margin-top:5px;
+}
+
+/*AREA VISUALIZZA ABBONAMENTI*/
+
+li.ACCETTATO{
+    max-width: 680px;
+    border: solid 3px #113f67;
+    color:#113f67;
+    margin-top:5px;
+}
+
+li.RIFIUTATO{
+    max-width: 680px;
+    border: solid 3px #561717;
+    color:#561717;
+    margin-top:5px;
+}
+
+li.ATTESO{
+    max-width: 680px;
+    border: solid 3px grey;
+    color:#113f67;
+    margin-top:5px;
+}
+
+/* AREA FOOTER */
+
+footer{
+    margin-top: 100px;
+    display: flex;
+    min-height: 200px;
+    left: 0;
+    bottom: 0;
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+    background-color:#113f67 ;
+}
+
+footer .container {
+
+    display: flex;
+    align-items:baseline;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: space-around;
+    width:100%;
+    margin-bottom:0px;
+}
+
+.infobox {
+    margin-bottom: 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+.servicesbox {
+    margin-bottom: 0px;
+    padding: 10px;
+}
+
+.infobox p {
+    padding: 5px;
+    color: #F5F5F5;
+}
+
+.servicesbox li, .infobox li {
+    padding-bottom: 10px;
+    color: #F5F5F5;
+}
+
+
+footer h4 {
+    font-weight: bold;
+    font-size: 18px;
+    color:#F5F5F5;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
