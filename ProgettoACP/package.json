@@ -1,0 +1,19 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "serverAdmin.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Salvr28/Progetto_ACP.git"
+  },
+  "author": "Salvatore Cangiano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Salvr28/Progetto_ACP/issues"
+  },
+  "homepage": "https://github.com/Salvr28/Progetto_ACP#readme"
+}
